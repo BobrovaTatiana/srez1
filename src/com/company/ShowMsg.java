@@ -35,7 +35,7 @@ public class ShowMsg implements Runnable {
                     for (int i : masInt) s.add(i);
                     int distinctCount = s.size();
 
-                    if (distinctCount == 10) return;
+                    if (distinctCount == 100) return;
 
                     if((timeInt % 5 == 0) && (timeInt != 0)) {
                         System.out.println("Количество уникальных чисел " + (distinctCount-1));
